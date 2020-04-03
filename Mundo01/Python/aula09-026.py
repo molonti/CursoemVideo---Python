@@ -1,0 +1,7 @@
+a1 = input('Digite uma frase qualquer: ').upper().strip()
+a2 = a1.count('A')
+a3 = a1.find('A')
+a4 = a1.rfind('A')
+print('Essa frase possui {} letras A(s).'.format(a2))
+print('A primeira letra ''A'' está na posição {}.'.format(a3))
+print('A última letra ''A'' está na posição {}.'.format(a4))
